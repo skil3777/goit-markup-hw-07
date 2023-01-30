@@ -1,0 +1,179 @@
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: roboto;
+
+  background: #ffffff;
+}
+/* Шапка */
+.logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+.logo-text {
+  color: #4d5ae5;
+}
+/* Навігація */
+.nav {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.nav:hover,
+.nav:focus {
+  color: #404bbf;
+  text-decoration-line: underline;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Зв'язок */
+.email {
+  text-decoration-line: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.email:hover,
+.email:focus {
+  text-decoration-line: underline;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
+}
+.tell {
+  text-decoration-line: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.tell:hover,
+.tell:focus {
+  text-decoration-line: underline;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
+}
+/* Заголовок */
+.title {
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+
+  /* NAVY BLUE */
+
+  background: #2e2f42;
+}
+.title-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.title-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+}
+.title-button:hover,
+.title-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+}
+footer {
+  width: 1440px;
+  height: 310px;
+  left: 0px;
+  top: 2280px;
+
+  /* NAVY BLUE */
+
+  background: #2e2f42;
+}
+/* підвал */
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  width: 115px;
+  height: 22px;
+  left: 156px;
+  top: 2380px;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7e9fc;
+}
+/* Портфоліо */
+.portfolio-button {
+  border-color: #ffffff;
+  border-radius: 4px;
+  padding: 12px 24px;
+
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  color: #4d5ae5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: #404bbf;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
