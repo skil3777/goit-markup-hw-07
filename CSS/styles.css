@@ -2,9 +2,9 @@ ul {
   list-style-type: none;
 }
 body {
-  font-family: roboto;
-
-  background: #ffffff;
+  font-family: "roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* Шапка */
 .logo {
@@ -13,7 +13,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #2e2f42;
 }
 
@@ -26,59 +26,53 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
 }
 .nav:hover,
 .nav:focus {
   color: #404bbf;
-  text-decoration-line: underline;
+
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
 }
 /* Зв'язок */
 .email {
   text-decoration-line: none;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #434455;
 }
 .email:hover,
 .email:focus {
   text-decoration-line: underline;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #404bbf;
 }
 .tell {
   text-decoration-line: none;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #434455;
 }
 .tell:hover,
 .tell:focus {
   text-decoration-line: underline;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #404bbf;
 }
 /* Заголовок */
 .title {
-  width: 1440px;
-  height: 600px;
   left: 0px;
   top: 72px;
 
@@ -89,11 +83,12 @@ body {
 .title-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 60mm;
   text-align: center;
   color: #ffffff;
 }
 .title-button {
+  font-family: inherit;
   background-color: #4d5ae5;
   color: #ffffff;
   width: 169px;
@@ -109,24 +104,22 @@ body {
 .section-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #2e2f42;
 }
 .section-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #434455;
 }
 .title-section {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 24mm;
   color: #2e2f42;
 }
 footer {
-  width: 1440px;
-  height: 310px;
   left: 0px;
   top: 2280px;
 
@@ -138,7 +131,7 @@ footer {
 .logo-footer {
   text-decoration: none;
   font-family: "Raleway";
-  font-style: normal;
+
   width: 115px;
   height: 22px;
   left: 156px;
@@ -147,10 +140,9 @@ footer {
 }
 .footer-text {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
   color: #e7e9fc;
 }
 /* Портфоліо */
@@ -159,15 +151,13 @@ footer {
   border-radius: 4px;
   padding: 12px 24px;
 
-  width: 116px;
-  height: 48px;
   background: #f4f4fd;
   color: #4d5ae5;
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
+
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -175,5 +165,5 @@ footer {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24mm;
 }
