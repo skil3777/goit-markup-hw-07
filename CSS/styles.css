@@ -13,7 +13,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #2e2f42;
 }
 
@@ -26,7 +26,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
 }
 .nav:hover,
 .nav:focus {
@@ -34,7 +34,7 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
 }
 /* Зв'язок */
 .email {
@@ -42,7 +42,7 @@ body {
   font-family: "Roboto";
 
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #434455;
 }
 .email:hover,
@@ -51,7 +51,7 @@ body {
   font-family: "Roboto";
 
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #404bbf;
 }
 .tell {
@@ -59,7 +59,7 @@ body {
   font-family: "Roboto";
 
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #434455;
 }
 .tell:hover,
@@ -68,7 +68,7 @@ body {
   font-family: "Roboto";
 
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #404bbf;
 }
 /* Заголовок */
@@ -83,7 +83,7 @@ body {
 .title-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60mm;
+  line-height: 30mm;
   text-align: center;
   color: #ffffff;
 }
@@ -104,19 +104,19 @@ body {
 .section-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #2e2f42;
 }
 .section-text {
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #434455;
 }
 .title-section {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #2e2f42;
 }
 footer {
@@ -142,7 +142,7 @@ footer {
   font-family: "Roboto";
 
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
   color: #e7e9fc;
 }
 /* Портфоліо */
@@ -157,7 +157,7 @@ footer {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -165,5 +165,5 @@ footer {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24mm;
+  line-height: 12mm;
 }
