@@ -19,6 +19,7 @@ ul {
   --color-footer: #f4f4fd;
   --color-footer-text: #e7e9fc;
   --color-icone: #afb1b8;
+  --color-hover: #31d0aa;
 }
 
 body {
@@ -103,7 +104,7 @@ img {
 .email:focus {
   text-decoration-line: underline;
   font-family: "Roboto";
-
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-focus);
@@ -121,7 +122,7 @@ img {
 .tell:focus {
   text-decoration-line: underline;
   font-family: "Roboto";
-
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-focus);
@@ -237,7 +238,7 @@ img {
   color: var(--color-text);
 }
 .list-item {
-  margin: 8px;
+  margin-bottom: 8px;
   height: 112px;
   width: 264px;
   background-size: contain;
@@ -287,13 +288,13 @@ img {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.667;
+  line-height: 0.9;
   color: var(--color-nav);
 }
 .text-name {
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .container-list {
   display: flex;
@@ -316,9 +317,11 @@ footer {
 .socials-item {
   width: 40px;
   height: 40px;
-
-  background-color: var(--color-logo);
+}
+.socials-item :hover,
+.socials-item :focus {
   border-radius: 50%;
+  background-color: var(--color-focus);
 }
 
 .socials-list {
@@ -330,7 +333,9 @@ footer {
 }
 
 .social-link {
-  display: block;
+  display: flex;
+  background-color: var(--color-logo);
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -342,23 +347,39 @@ footer {
   height: 16px;
   fill: var(--color-footer);
 }
+/* Посилання  */
+
+.customers-list {
+  width: 168px;
+  height: 88px;
+}
 
 .icone-costomers {
   display: flex;
-  justify-content: center;
-  fill: var(--color-icone);
+  gap: 24px;
 }
 .costomers {
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  justify-content: center;
+  fill: var(--color-icone);
+  width: 100%;
+  height: 100%;
   max-width: 168px;
+}
+.costomers :hover,
+.costomers :focus {
+  width: 168px;
+  height: 88px;
+  fill: var(--color-focus);
+  border: 1px solid var(--color-focus);
+  border-radius: 4px;
 }
 
 /* підвал */
 .logo-footer {
   text-decoration: none;
   font-family: "Raleway";
-
   width: 115px;
   height: 22px;
   left: 156px;
@@ -386,11 +407,11 @@ footer {
 }
 
 .container-media {
-  margin-left: 540px;
+  display: flex;
 }
 
 .socials-list-footer {
-  display: block;
+  justify-content: center;
   display: flex;
   gap: 24px;
 }
@@ -400,16 +421,35 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  justify-content: center;
+}
+.socials-item-footer :hover,
+.socials-item-footer :focus {
+  border-radius: 50%;
+  background-color: var(--color-hover);
 }
 
 .social-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .social-icon-footer {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   fill: #f4f4fd;
+}
+
+.media {
+  padding-bottom: 16px;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 /* Портфоліо */
@@ -462,4 +502,10 @@ footer {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+}
+.flex-elements :hover,
+.flex-elements :focus {
+  border: 1px solid var(--color-footer);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
