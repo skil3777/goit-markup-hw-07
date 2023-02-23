@@ -499,7 +499,6 @@ footer {
   width: calc((100% - 48px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid var(--color-footer-text);
 }
 .flex-elements:nth-child(3n) {
   margin-right: 0;
@@ -513,9 +512,12 @@ footer {
   padding-left: 16px;
 }
 .flex-photo {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--color-footer-text);
 }
-.flex-elements:hover,
-.flex-elements:focus {
+.flex-photo:hover,
+.flex-photo:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
