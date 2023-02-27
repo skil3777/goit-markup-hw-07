@@ -26,10 +26,10 @@
                 <a class="logo" href="./index.html"><span class="logo-text">WEB</span>STUDIO</a>
                 <ul class="menu-nav">
                     <li>
-                        <a href="./index.html" class="nav">Studio</a>
+                        <a href="./index.html" class="nav studio">Studio</a>
                     </li>
                     <li>
-                        <a href="./portfolio.html" class="nav">Portfolio</a>
+                        <a href="./portfolio.html" class="nav ">Portfolio</a>
                     </li>
                     <li>
                         <a href="" class="nav">Contacts</a>
@@ -54,7 +54,7 @@
         <section class="title title-img">
             <div class="container">
                 <h1 class="title-text">Effective Solutions <br> for Your Business</h1>
-                <button class="title-button" type="button">Order Service</button>
+                <button class="title-button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <!-- Категорії -->
@@ -365,6 +365,15 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close" type="button" data-modal-close><svg class="close">
+                    <use href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 
 </body>
 
