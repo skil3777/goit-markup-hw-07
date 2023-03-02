@@ -86,7 +86,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   padding: 24px 0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio::after {
@@ -114,38 +114,34 @@ img {
 .nav:hover,
 .nav:focus {
   color: var(--color-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Зв'язок */
 .email {
   text-decoration-line: none;
   font-family: "Roboto";
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-text);
 }
 .email:hover,
 .email:focus {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--color-focus);
 }
 
 .tell {
   text-decoration-line: none;
   font-family: "Roboto";
-
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-text);
 }
 .tell:hover,
 .tell:focus {
-  text-decoration-line: underline;
-  font-family: "Roboto";
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 1.5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--color-focus);
 }
 .flex {
@@ -210,7 +206,7 @@ img {
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
-  transition: 250ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
   background-color: var(--color-logo);
   color: var(--color-fon);
@@ -226,7 +222,7 @@ img {
 .title-button:hover,
 .title-button:focus {
   background-color: var(--color-focus);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Категорії */
 .visually-hidden {
@@ -359,7 +355,7 @@ footer {
   justify-content: center;
   width: 100%;
   height: 100%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -388,7 +384,8 @@ footer {
   max-width: 168px;
   display: flex;
   align-items: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers:hover,
 .customers:focus {
@@ -397,7 +394,8 @@ footer {
   fill: var(--color-focus);
   border: 1px solid var(--color-focus);
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -458,12 +456,12 @@ footer {
   justify-content: center;
   width: 100%;
   height: 100%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--color-hover);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-footer {
@@ -536,6 +534,8 @@ footer {
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
@@ -560,7 +560,8 @@ footer {
   background: var(--color-footer);
   color: var(--color-logo);
   font-family: "Roboto", sans-serif;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -574,7 +575,8 @@ footer {
   line-height: 1.5;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-button {
   margin-bottom: 72px;
