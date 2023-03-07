@@ -489,7 +489,7 @@ footer {
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background-color: var(--color-nav);
+  background-color: transparent;
 }
 
 .footer-button {
@@ -498,6 +498,7 @@ footer {
   border-radius: 4px;
   margin-left: 24px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 40px;
 }
 
 .footer-button:hover,
@@ -508,7 +509,7 @@ footer {
 .icon-footer {
   fill: var(--color-fon);
   width: 24px;
-  height: 20px;
+  height: 24px;
 }
 
 /* Modal */
@@ -579,18 +580,19 @@ footer {
 }
 
 .modal-text {
-  display: block;
-  align-items: center;
-  justify-content: center;
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .modal-title {
+  color: var(--color-nav);
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 0.6;
   width: 360px;
-  height: 24px;
+  margin-bottom: 34px;
 }
 
 .modal-text-contact {
@@ -598,6 +600,25 @@ footer {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  padding-bottom: 26px;
+  padding-left: 40px;
+}
+
+.modal-flex {
+  position: relative;
+}
+
+.modal-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 16px;
+  top: 11px;
+}
+
+.modal-flex:hover,
+.modal-flex:focus {
+  fill: var(--color-logo);
 }
 
 .modal-block {
