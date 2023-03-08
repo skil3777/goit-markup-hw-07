@@ -363,7 +363,7 @@
                     </ul>
                 </ul>
             </div>
-            <div>
+            <div class="footer-subscribe">
                 <label class="media modal-block" for="email-1">Subscribe</label>
                 <input class="email-footer" id="email-1" type="email" placeholder="   E-mail">
                 <button class="footer-button" type="button">Subscribe<svg class="icon-footer">
@@ -381,40 +381,53 @@
             <div class="modal-text">
                 <h2 class="modal-title">Leave your contacts and we will call you back</h2>
                 <form class="modal-form" name="contact-form" autocomplete="off" novalidate>
-                    <label class="modal-block" for="user-name">Name</label>
-                    <div class="modal-flex">
 
-                        <input class="modal-text-contact" id="user-name" type="name" />
-                        <svg class="modal-icon">
-                            <use href="./images/icons.svg/symbol-defs.svg#icon-person-black-18dp-1"></use>
-                        </svg>
+                    <div class="modal-flex">
+                        <label class="modal-block" for="user-name">Name</label>
+                        <div class="modal-flex-icon">
+                            <input class="modal-text-contact" id="user-name" type="name" />
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                            </svg>
+                        </div>
+
                     </div>
-                    <label class="modal-block" for="tell">Phone</label>
-                    <div class="modal-flex">
 
-                        <input class="modal-text-contact" id="tell" type="tel">
-                        <svg class="modal-icon">
-                            <use href="./images/icons.svg/symbol-defs.svg#icon-phone-black-18dp-1"></use>
-                        </svg>
+                    <div class="modal-flex">
+                        <label class="modal-block" for="tell">Phone</label>
+                        <div class="modal-flex-icon">
+                            <input class="modal-text-contact" id="tell" type="tel">
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                            </svg>
+                        </div>
+
                     </div>
-                    <label class="modal-block" for="email">Email</label>
-                    <div class="modal-flex">
 
-                        <input class="modal-text-contact" id="email" type="email">
-                        <svg class="modal-icon">
-                            <use href="./images/icons.svg/symbol-defs.svg#icon-email-black-18dp-1"></use>
-                        </svg>
+                    <div class="modal-flex">
+                        <label class="modal-block" for="email">Email</label>
+                        <div class="modal-flex-icon">
+                            <input class="modal-text-contact" id="email" type="email">
+                            <svg class="modal-icon">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                            </svg>
+                        </div>
+
                     </div>
 
                     <div class="modal-flex">
                         <label class="modal-block" for="user-comment">Comment</label>
-                        <textarea class="comment" name="user-comment" id="user-comment"
-                            placeholder="Text input"></textarea>
-                        <label class="modal-block" for=""><input type="checkbox">I accept the terms and conditions of
-                            the <a href="">Privacy
-                                Policy</a></label>
+                        <div class="modal-flex-icon">
+                            <textarea class="comment" name="user-comment" id="user-comment"
+                                placeholder="Text input"></textarea>
+                            <label class="modal-block-icon" for=""><input type="checkbox">I accept the terms and conditions
+                                of
+                                the <a href="">Privacy
+                                    Policy</a></label>
+                        </div>
+                        <button class="modal-button" type="submit">Send</button>
                     </div>
-                    <button class="modal-button" type="submit">Send</button>
+
                 </form>
             </div>
         </div>
