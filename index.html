@@ -364,7 +364,7 @@
                 </ul>
             </div>
             <div class="footer-subscribe">
-                <label class="media modal-block" for="email-1">Subscribe</label>
+                <p class="media">Subscribe</p>
                 <input class="email-footer" id="email-1" type="email" placeholder="   E-mail">
                 <button class="footer-button" type="button">Subscribe<svg class="icon-footer">
                         <use href="./images/icons.svg/symbol-defs.svg#icon-Frame-3"></use>
@@ -420,10 +420,17 @@
                         <div class="modal-flex-icon">
                             <textarea class="comment" name="user-comment" id="user-comment"
                                 placeholder="Text input"></textarea>
-                            <label class="modal-block-icon" for=""><input type="checkbox">I accept the terms and conditions
-                                of
-                                the <a href="">Privacy
-                                    Policy</a></label>
+                            <div class="check-flex">
+                                <input class="modal-check visually-hidden" id="user-check" type="checkbox"
+                                    name="user-check">
+                                <label class="modal-block vector" for="user-check">
+
+                                    I accept the terms and conditions
+                                    of
+                                    the <a href="">Privacy
+                                        Policy</a>
+                                </label>
+                            </div>
                         </div>
                         <button class="modal-button" type="submit">Send</button>
                     </div>
