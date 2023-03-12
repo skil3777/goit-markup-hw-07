@@ -490,6 +490,12 @@ footer {
   gap: 120px;
 }
 
+.footer-flex-email {
+  display: flex;
+  align-items: baseline;
+  gap: 80px;
+}
+
 .modal-block {
   display: block;
   width: 100%;
@@ -630,9 +636,13 @@ footer {
   border: 1px solid #4d5ae5;
 }
 
+.modal-flex {
+  display: block;
+  margin-bottom: 8px;
+}
+
 .modal-flex-icon {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-icon {
@@ -641,6 +651,12 @@ footer {
   height: 18px;
   left: 16px;
   top: 11px;
+  fill: var(--color-nav);
+}
+
+.big {
+  width: 18px;
+  height: 24px;
 }
 
 .modal-flex:hover,
@@ -675,7 +691,7 @@ footer {
 }
 
 .modal-check:focus + .vector::before {
-  background-color: var(--color-focus);
+  
   background-image: url(../images/Vector.svg);
 }
 
@@ -699,6 +715,12 @@ footer {
   resize: none;
 }
 
+.comment:hover,
+.comment:focus {
+  outline: none;
+  border: 1px solid #4d5ae5;
+}
+
 .modal-flex-icon:hover,
 .modal-flex-icon:focus {
   fill: var(--color-logo);
@@ -708,6 +730,10 @@ footer {
   width: 10px;
   height: 8px;
   fill: var(--color-footer);
+}
+
+.modal-a {
+  margin-left: 4px;
 }
 
 .modal-button {
