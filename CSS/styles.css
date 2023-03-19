@@ -49,7 +49,15 @@ img {
   margin-right: auto;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
+  .container {
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
   .container {
     width: 768px;
     padding: 0px 15px;
@@ -58,9 +66,9 @@ img {
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 1200px) {
   .container {
-    width: 480px;
+    width: 1158px;
     padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +80,7 @@ img {
   padding-bottom: 120px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
   .section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -109,6 +117,21 @@ img {
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+  .menu-nav {
+    margin: 0;
+    margin-left: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -188,7 +211,7 @@ img {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
   .flex {
   }
 }
@@ -205,18 +228,15 @@ img {
   gap: 40px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
   .flexs-address {
-    display: flex none;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 12px;
   }
-}
-
-@media (max-width: 480px) {
 }
 
 .address {
@@ -303,6 +323,21 @@ img {
 
   gap: 24px;
 }
+
+@media (min-width: 480px) {
+  .list-flex {
+    display: block;
+  }
+}
+
+@media (min-width: 480px) {
+  .list-flex {
+    width: calc((100% - 24px) / 2);
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+}
+
 .section-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -325,6 +360,13 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+@media (min-width: 480px) {
+  .list-item {
+    display: none;
+  }
+}
+
 .icone {
   width: 64px;
   height: 64px;
@@ -347,6 +389,13 @@ img {
 
   gap: 24px;
 }
+
+@media (min-width: 480px) {
+  .photo {
+    display: none;
+  }
+}
+
 .title-photo {
   margin-bottom: 72px;
   text-align: center;
