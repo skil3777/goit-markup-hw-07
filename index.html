@@ -47,18 +47,81 @@
                     </li>
                 </ul>
             </address>
+            <!-- Мобільне меню -->
+            <div class="header-container-mobile">
+                <a class="logo" href="./index.html"><span class="logo-text">WEB</span>STUDIO</a>
+                <button class="burger-icon js-open-menu" type="button" >
+                    <svg width="32" height="22">
+                        <use href="./images/icons.svg/symbol-defs.svg#icon-burger"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile-menu js-menu-container">
+                <button class="modal-close js-close-menu" type="button" data-modal-close>
+                    <svg class="close">
+                        <use href="./images/icons.svg/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+                <ul class="site-nav-mobile">
+                    <li class="item-nav-mobile">
+                        <a href="./index.html" class="navigation-link-mobile studio">Studio</a>
+                    </li>
+                    <li class="item-nav-mobile">
+                        <a href="./portfolio.html" class="navigation-link-mobile ">Portfolio</a>
+                    </li>
+                    <li class="item-nav-mobile">
+                        <a href="" class="navigation-link-mobile">Contacts</a>
+                    </li>
+                </ul>
+                <ul class="site-address-mobile">
+                    <li class="item-contact-mobile">
+                        <a href="tel:+110001111111" class="address-nav-mobile">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="item-address-mobile">
+                        <a href="mailto:info@devstudio.com" class="address-navigation-mobile">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="socials-list-mobile">
+                    <li class="socials-item-mibile">
+                        <a class="social-link-mobile" href=""><svg class="social-icon-mobile">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-item-mibile">
+                        <a class="social-link-mobile" href=""><svg class="social-icon-mobile">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-item-mibile">
+                        <a class="social-link-mobile" href=""><svg class="social-icon-mobile">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-item-mibile">
+                        <a class="social-link-mobile" href=""><svg class="social-icon-mobile">
+                                <use href="./images/icons.svg/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
+
     </header>
     <!-- Заголовок сайту -->
     <main>
         <section class="title title-img">
             <div class="container">
-                <h1 class="title-text">Effective Solutions <br> for Your Business</h1>
+                <h1 class="title-text">Effective Solutions for Your Business</h1>
                 <button class="title-button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <!-- Категорії -->
-         <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="visually-hidden">Feature</h2>
                 <ul class="container-text">
@@ -111,7 +174,7 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
         <!-- Наші роботи -->
         <section class="section photo">
             <div class="container">
@@ -129,7 +192,7 @@
                 </ul>
             </div>
 
-        </section> 
+        </section>
         <!-- Наша команда -->
 
         <section class="section team">
@@ -139,7 +202,7 @@
                     <li class="text-position">
                         <img src="./images/img-4.jpg" alt="Valera" width="264">
                         <div class="text-name">
-                            <h3 class="section-title">Mark Guerrero</h3>
+                            <h3 class="section-title-team">Mark Guerrero</h3>
                             <p class="section-text">Product Designer</p>
                             <ul class="socials-list">
                                 <li class="socials-item">
@@ -172,7 +235,7 @@
                     <li class="text-position">
                         <img src="./images/img-3.jpg" alt="Petro" width="264">
                         <div class="text-name">
-                            <h3 class="section-title">Tom Ford</h3>
+                            <h3 class="section-title-team">Tom Ford</h3>
                             <p class="section-text">Frontend Developer</p>
                             <ul class="socials-list">
                                 <li class="socials-item">
@@ -205,7 +268,7 @@
                     <li class="text-position">
                         <img src="./images/img-2.jpg" alt="Galya" width="264">
                         <div class="text-name">
-                            <h3 class="section-title">Camila Garcia</h3>
+                            <h3 class="section-title-team">Camila Garcia</h3>
                             <p class="section-text">Marketing</p>
                             <ul class="socials-list">
                                 <li class="socials-item">
@@ -238,7 +301,7 @@
                     <li class="text-position">
                         <img src="./images/img-5.jpg" alt="Hasid" width="264">
                         <div class="text-name">
-                            <h3 class="section-title">Daniel Wilson</h3>
+                            <h3 class="section-title-team">Daniel Wilson</h3>
                             <p class="section-text">UI Designer</p>
                             <ul class="socials-list">
                                 <li class="socials-item">
@@ -270,9 +333,9 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
         <!-- Посилання -->
-         <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="title-section">Customers</h2>
                 <ul class="icone-customers">
@@ -324,7 +387,7 @@
     </main>
     <!-- Підвал -->
 
-     <footer class="container-footer">
+    <footer class="container-footer">
         <div class="container footer-flex">
             <div>
                 <a class="logo-footer" href="./index.html"><span class="logo-text-footer">WEB</span>STUDIO</a>
@@ -446,7 +509,8 @@
 
     </div>
     <script src="./js/modal.js"></script>
-
+    <script src="./js/mobile-menu.js
+    "></script>
 </body>
 
 </html>
