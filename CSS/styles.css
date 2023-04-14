@@ -265,6 +265,7 @@ img {
 }
 
 .cap {
+  width: 100%;
   border-bottom: 1px solid var(--color-footer-text);
 }
 
@@ -539,8 +540,12 @@ img {
 }
 
 @media (min-width: 1200px) {
-  .list-flex {
+  .container-text {
     max-width: 1158px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -554,9 +559,12 @@ img {
 
 @media (min-width: 1200px) {
   .container-text {
+    width: 1158px;
     flex-wrap: nowrap;
     display: flex;
     gap: 24px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -615,6 +623,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
   }
 }
 
@@ -627,11 +636,13 @@ img {
 .photo {
   padding-top: 0;
 }
-.container-photo {
+.container-work {
   width: 1128px;
   height: 412px;
   left: 156px;
   top: 1016px;
+  align-items: center;
+  justify-content: center;
 }
 .container-work {
   padding: 120px, 156px;
@@ -650,6 +661,7 @@ img {
 @media (min-width: 1200px) {
   .photo {
     display: block;
+    width: 1158px;
   }
 }
 
@@ -700,6 +712,14 @@ img {
     row-gap: 72px;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-list {
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 24px;
   }
 }
 
@@ -798,6 +818,8 @@ footer {
 @media (min-width: 1200px) {
   .icone-customers {
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -870,6 +892,8 @@ footer {
 @media (min-width: 1200px) {
   footer {
     width: 1158px;
+
+    top: 2280px;
   }
 }
 
@@ -949,10 +973,18 @@ footer {
   .footer-flex {
     flex-wrap: wrap;
     row-gap: 72px;
+    align-items: center;
+    justify-content: center;
   }
   .footer-flex-email {
     flex-wrap: wrap;
     row-gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-subscribe {
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -973,12 +1005,10 @@ footer {
 
 @media (min-width: 1200px) {
   .footer-flex {
+    max-width: 1158px;
+    display: flex;
     align-items: baseline;
     gap: 120px;
-  }
-  .footer-flex-email {
-    align-items: baseline;
-    gap: 80px;
   }
 }
 
@@ -986,6 +1016,13 @@ footer {
   display: flex;
   align-items: baseline;
   gap: 80px;
+}
+
+@media (min-width: 1200px) {
+  .footer-flex-email {
+    align-items: baseline;
+    gap: 80px;
+  }
 }
 
 .modal-block {
